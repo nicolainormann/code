@@ -1,0 +1,41 @@
+﻿$black: #000000;
+$white: #FFFFFF;
+$teal: #26A69A;
+$red: #F44336;
+$blue: #2196F3;
+$lime: #CDDC39;
+$green: #4CAF50;
+$orange: #FF9800;
+
+$teal1: #4DB6AC;
+$teal2: #26A69A;
+$teal3: #009688;
+$teal4: #00897B;
+$teal5: #00796b;
+
+$overlay: rgba(81, 107, 127, 0.5);
+$dots: 5;
+$dot-diameter:20px;
+$dot-spacing:10px;
+
+@mixin colorFifth(){
+	&:nth-child(5n + 1){
+		background-color:$teal1;
+	}
+
+	&:nth-child(5n + 2){
+		background-color:$teal2;
+	}
+
+	&:nth-child(5n + 3){
+		background-color:$teal3;
+	}
+
+	&:nth-child(5n + 4){
+		background-color:$teal4;
+	}
+
+	&:nth-child(5n + 5){
+		background-color:$teal5;
+	}
+}
