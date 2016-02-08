@@ -22,7 +22,7 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\master.css" />
+    <None Include="assets\scss\master.scss" />
     <Content Include="assets\font\material-design-icons\LICENSE.txt" />
     <Content Include="assets\font\material-design-icons\Material-Design-Icons.svg" />
     <Content Include="assets\min\library.min.css" />
@@ -57,6 +57,7 @@
     <Content Include="assets\font\roboto\Roboto-Thin.woff" />
     <Content Include="assets\font\roboto\Roboto-Thin.woff2" />
     <Content Include="assets\min\map\main.min.js.map" />
+    <Content Include="assets\scss\variables.scss" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
     <Content Include="Scripts\jquery-2.2.0.min.js" />
@@ -85,6 +86,7 @@
     <Content Include="Scripts\knockout-3.4.0.js" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="assets\ts\CustomBindings\ToggleClassOnClick.ts" />
     <TypeScriptCompile Include="assets\ts\Init.ts" />
     <TypeScriptCompile Include="assets\ts\ViewModels\MasterViewModel.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
@@ -93,7 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\img\" />
-    <Folder Include="assets\ts\CustomBindings\" />
     <Folder Include="assets\ts\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
